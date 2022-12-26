@@ -3,6 +3,8 @@ public class Calculator {
         int a = 5, b = 5;
         System.out.println(add(a,b));
         System.out.println(div(a,b));
+        System.out.println(multiplication(a,b));
+
     }
 
     public static int add(int a, int b){
@@ -15,5 +17,9 @@ public class Calculator {
         }else{
             return 0;
         }
+    }
+
+    public static int multiplication(int a, int b){
+        return a*b;
     }
 }
